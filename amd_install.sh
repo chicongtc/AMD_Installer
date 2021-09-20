@@ -82,22 +82,22 @@ case $opt in
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.10-785425-ubuntu-18.04.tar.xz
         version="19.10-785425-ubuntu-18.04";break
     ;;
-	"19.10-725072-ubuntu-18.04")
+    "19.10-725072-ubuntu-18.04")
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.10-785425-ubuntu-18.04.tar.xz
         version="19.10-725072-ubuntu-18.04";break
 	;;
-	"19.20-812932-ubuntu-18.04")
+    "19.20-812932-ubuntu-18.04")
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.20-812932-ubuntu-18.04.tar.xz
         version="19.20-812932-ubuntu-18.04";break	
     ;;
-	"19.30-838629-ubuntu-18.04")
+    "19.30-838629-ubuntu-18.04")
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.30-838629-ubuntu-18.04.tar.xz
         version="19.30-838629-ubuntu-18.04";break
     ;;
-	"19.50-967956-ubuntu-18.04")
-	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.50-967956-ubuntu-18.04.tar.xz
-        version="19.50-967956-ubuntu-18.04";break
-	;;
+    "20.50-1234664-ubuntu-20.04")
+	wget https://drivers.amd.com/drivers/linux/amdgpu-pro-20.50-1234664-ubuntu-20.04.tar.xz
+        version="20.50-1234664-ubuntu-20.04";break
+    ;;
 	"Quit")
 	exit
         break
